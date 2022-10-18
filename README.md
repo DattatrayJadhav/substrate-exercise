@@ -202,3 +202,5 @@
     ["0x537562737472617465206c6561726e696e67202d204461747461",500]
 
     j) Similarly you can try out other couple of methods like [clearName, killName, forceName, balanceOf]
+
+4.  Please see the attached snippets in the test-snippet folder.
