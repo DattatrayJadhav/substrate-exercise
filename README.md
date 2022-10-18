@@ -1,9 +1,9 @@
-# Dattas Pallet Overview
+## Dattas Pallet Overview
 
     Dattas is an example module for keeping track of account names on-chain. It makes no effort to
     create a name hierarchy, be a DNS replacement or provide reverse lookups.
 
-# Dattas Functions
+## Dattas Functions
 
 - `set_name` - Set the associated name of an account; a small deposit is reserved if not already taken.
 - `clear_name` - Remove an account's associated name; the deposit is returned.
@@ -11,11 +11,13 @@
 - `balanceOf` - get the balance of the user.
 - `ReservedNameOf` - get the associated name with reserved deposite.
 
-# Prerequisites - Installation steps
+## Prerequisites - Installation steps
 
     Before we clone the repo and start with the execution, we need to make sure our system is compatible and have all the required prerequisites installed.
 
-# I assume you are running on the Mac operating system and below steps are according to macOs, For other OS installation steps may differ!
+## Assumption -
+
+    I assume you are running on the Mac operating system and below steps are according to macOs, For other OS installation steps may differ!
 
 1.  Please make sure you have homebrew installed on you machine, if not - please follow below steps
     a) Open the Terminal application.
@@ -105,7 +107,9 @@
 
 # -----------------------------------------------------------------------------------------------------------------
 
-# Execution steps - There two things [a] node which has our pallet changes as a part of this assigment [b] Front-end template from the substrate. Let us start with node changes and then front-end
+## Execution steps -
+
+    There two things [a] node which has our pallet changes as a part of this assigment [b] Front-end template from the substrate. Let us start with node changes and then front-end
 
 1.  Firstly, let's clone the repo -
     a) Open the Terminal application. Clone the repo by running the following command -
